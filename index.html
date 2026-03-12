@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -28,7 +28,7 @@
     <h1>Samuel Rodríguez</h1>
     <h2>Backend Developer</h2>
     <p>Java | Spring Boot | REST APIs</p>
-    <a href="www.linkedin.com/in/carlos-samuel-rodriguez-palomino" class="cta">Connect on LinkedIn</a>
+<a href="https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino" class="cta" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
   </div>
 </section>
 
@@ -39,33 +39,60 @@
     Backend developer focused on Java and Spring Boot. I enjoy building REST APIs and working on scalable backend architectures.
     I am continuously improving my backend development skills by building projects and exploring best practices in API design and software architecture.
   </p>
+  <div class="soft-skills">
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Teamwork</li>
+      <li>Proactive</li>
+      <li>Adaptability</li>
+      <li>Quick learner</li>
+    </ul>
+  </div>
+  <div class="languages">
+    <h3>Languages</h3>
+    <ul>
+      <li>Spanish (Native)</li>
+      <li>English (Advanced)</li>
+    </ul>
+  </div>
 </section>
 
 <!-- STACK -->
 <section id="stack" class="container">
-  <h2>Tech Stack</h2>
+  <h2>Tech Stack & Tools</h2>
   <div class="stack-grid">
     <div class="stack-card">
       <h3>Backend</h3>
       <ul>
-        <li>Java</li>
-        <li>Spring Boot</li>
+        <li>Java 17+</li>
+        <li>Spring Boot | MVC | Data JPA | Security</li>
         <li>REST APIs</li>
       </ul>
     </div>
     <div class="stack-card">
-      <h3>Database</h3>
+      <h3>Databases</h3>
       <ul>
         <li>PostgreSQL</li>
         <li>MySQL</li>
+        <li>H2</li>
+        <li>NoSQL (Firebase)</li>
       </ul>
     </div>
     <div class="stack-card">
-      <h3>Tools</h3>
+      <h3>Tools & Testing</h3>
       <ul>
-        <li>Git</li>
+        <li>Git | GitHub</li>
         <li>Docker</li>
-        <li>Postman</li>
+        <li>Maven | Gradle</li>
+        <li>JUnit | Mockito</li>
+        <li>Lombok | Swagger | MapStruct</li>
+      </ul>
+    </div>
+    <div class="stack-card">
+      <h3>Frontend & Others</h3>
+      <ul>
+        <li>HTML5 | CSS3 | JavaScript (ES6+)</li>
+        <li>Firebase</li>
       </ul>
     </div>
   </div>
@@ -86,13 +113,18 @@
 <!-- CONTACT -->
 <section id="contact" class="container">
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:csamuelrod@gmail.com">samuel.rodpal@gmail.com</a></p>
-  <p>LinkedIn: <a href="www.linkedin.com/in/carlos-samuel-rodriguez-palomino">Samuel Rodríguez</a></p>
+  <p>Email: <a href="mailto:samuel.rodpal@gmail.com">samuel.rodpal@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino/">Samuel Rodríguez</a></p>
 </section>
 
 <footer>
-  <p>© 2026 Samuel Rodríguez</p>
+  <p>© <span id="year"></span> Samuel Rodríguez</p>
 </footer>
 
+<script src="js/script.js"></script>
+<script>
+  // Actualiza el año automáticamente
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
