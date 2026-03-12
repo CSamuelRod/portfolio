@@ -1,0 +1,26 @@
+# Personal Portfolio
+
+This repository contains the source code for my personal developer portfolio.
+
+The website showcases my work, technical skills and projects as a backend developer, mainly focused on Java and Spring Boot. It also reflects my learning journey into .NET and backend architecture.
+
+The goal of this portfolio is to present my technical profile, highlight relevant projects and provide an easy way to explore my work and contact me.
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages (deployment)
+
+## Sections
+
+- Hero (introduction)
+- About me
+- Tech stack
+- Projects
+- Contact
+
+## Author
+
+Samuel Rodríguez

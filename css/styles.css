@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 60px;
+}
+
+#hero {
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
