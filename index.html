@@ -1,130 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Samuel Rodríguez | Backend Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Rodríguez | Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
 <header>
-  <nav class="navbar">
-    <h3>Samuel Rodríguez</h3>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#stack">Stack</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <nav class="navbar">
+        <div class="nav-logo">SR<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#stack">Tecnologías</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
 
-<!-- HERO -->
 <section id="hero">
-  <div class="hero-content">
-    <h1>Samuel Rodríguez</h1>
-    <h2>Backend Developer</h2>
-    <p>Java | Spring Boot | REST APIs</p>
-<a href="https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino" class="cta" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
-  </div>
+    <div class="hero-content">
+        <span class="badge">Disponible para nuevos retos</span>
+        <h1>Samuel Rodríguez</h1>
+        <h2>Backend Developer</h2>
+        <p class="hero-subtitle"><i class="fab fa-java"></i> Especialista en Java, Spring Boot y Arquitecturas REST</p>
+        <div class="hero-btns">
+            <a href="https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino" class="cta primary" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> Conectar en LinkedIn
+            </a>
+            <a href="#projects" class="cta secondary">Ver Proyectos</a>
+        </div>
+    </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="container">
-  <h2>About Me</h2>
-  <p>
-    Backend developer focused on Java and Spring Boot. I enjoy building REST APIs and working on scalable backend architectures.
-    I am continuously improving my backend development skills by building projects and exploring best practices in API design and software architecture.
-  </p>
-  <div class="soft-skills">
-    <h3>Soft Skills</h3>
-    <ul>
-      <li>Teamwork</li>
-      <li>Proactive</li>
-      <li>Adaptability</li>
-      <li>Quick learner</li>
-    </ul>
-  </div>
-  <div class="languages">
-    <h3>Languages</h3>
-    <ul>
-      <li>Spanish (Native)</li>
-      <li>English (Advanced)</li>
-    </ul>
-  </div>
-</section>
+<main>
+    <section id="about" class="container">
+        <div class="section-header">
+            <h2>Sobre mí</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Desarrollador Backend apasionado por crear sistemas robustos y escalables. Mi enfoque principal es el ecosistema de <strong>Java y Spring Boot</strong>, donde aplico buenas prácticas de diseño y arquitectura de software.</p>
+                <div class="info-chips">
+                    <span><i class="fas fa-check-circle"></i> Proactivo</span>
+                    <span><i class="fas fa-check-circle"></i> Adaptable</span>
+                    <span><i class="fas fa-check-circle"></i> Aprendizaje rápido</span>
+                </div>
+            </div>
+            <div class="about-extra">
+                <div class="lang-card">
+                    <h3>Idiomas</h3>
+                    <p><strong>Español:</strong> Nativo</p>
+                    <p><strong>Inglés:</strong> Avanzado (C1/B2)</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- STACK -->
-<section id="stack" class="container">
-  <h2>Tech Stack & Tools</h2>
-  <div class="stack-grid">
-    <div class="stack-card">
-      <h3>Backend</h3>
-      <ul>
-        <li>Java 17+</li>
-        <li>Spring Boot | MVC | Data JPA | Security</li>
-        <li>REST APIs</li>
-      </ul>
-    </div>
-    <div class="stack-card">
-      <h3>Databases</h3>
-      <ul>
-        <li>PostgreSQL</li>
-        <li>MySQL</li>
-        <li>H2</li>
-        <li>NoSQL (Firebase)</li>
-      </ul>
-    </div>
-    <div class="stack-card">
-      <h3>Tools & Testing</h3>
-      <ul>
-        <li>Git | GitHub</li>
-        <li>Docker</li>
-        <li>Maven | Gradle</li>
-        <li>JUnit | Mockito</li>
-        <li>Lombok | Swagger | MapStruct</li>
-      </ul>
-    </div>
-    <div class="stack-card">
-      <h3>Frontend & Others</h3>
-      <ul>
-        <li>HTML5 | CSS3 | JavaScript (ES6+)</li>
-        <li>Firebase</li>
-      </ul>
-    </div>
-  </div>
-</section>
+    <section id="stack" class="container">
+        <div class="section-header">
+            <h2>Tech Stack</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="stack-grid">
+            <div class="stack-card">
+                <i class="fas fa-server icon"></i>
+                <h3>Backend</h3>
+                <ul>
+                    <li>Java 17+</li>
+                    <li>Spring Boot / Security</li>
+                    <li>REST APIs / Microservicios</li>
+                </ul>
+            </div>
+            <div class="stack-card">
+                <i class="fas fa-database icon"></i>
+                <h3>Bases de Datos</h3>
+                <ul>
+                    <li>PostgreSQL / MySQL</li>
+                    <li>Redis / NoSQL</li>
+                    <li>Hibernate / JPA</li>
+                </ul>
+            </div>
+            <div class="stack-card">
+                <i class="fas fa-tools icon"></i>
+                <h3>Herramientas</h3>
+                <ul>
+                    <li>Docker / Git</li>
+                    <li>JUnit 5 / Mockito</li>
+                    <li>Maven / Gradle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="container">
-  <h2>Projects</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <h3>Task Manager API</h3>
-      <p>REST API built with Spring Boot for task management.</p>
-      <a href="#">GitHub</a>
-    </div>
-  </div>
-</section>
+    <section id="projects" class="container">
+        <div class="section-header">
+            <h2>Proyectos Destacados</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Task Manager API</h3>
+                    <p>Sistema de gestión de tareas con autenticación JWT, roles de usuario y persistencia en PostgreSQL.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Spring Security</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
 
-<!-- CONTACT -->
-<section id="contact" class="container">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:samuel.rodpal@gmail.com">samuel.rodpal@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino/">Samuel Rodríguez</a></p>
-</section>
+    <section id="contact" class="container contact-section">
+        <div class="section-header">
+            <h2>¿Hablamos?</h2>
+            <p>Si buscas un perfil técnico comprometido, estaré encantado de conversar.</p>
+        </div>
+        <div class="contact-cards">
+            <a href="mailto:samuel.rodpal@gmail.com" class="contact-card-link">
+                <i class="fas fa-envelope"></i> samuel.rodpal@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-samuel-rodriguez-palomino/" target="_blank" class="contact-card-link">
+                <i class="fab fa-linkedin"></i> LinkedIn Profile
+            </a>
+        </div>
+    </section>
+</main>
 
 <footer>
-  <p>© <span id="year"></span> Samuel Rodríguez</p>
+    <p>© <span id="year"></span> Samuel Rodríguez | Hecho con <i class="fas fa-heart"></i> y Código</p>
 </footer>
 
 <script src="js/script.js"></script>
-<script>
-  // Actualiza el año automáticamente
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
 </body>
 </html>
