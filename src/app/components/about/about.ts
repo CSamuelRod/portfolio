@@ -10,7 +10,7 @@ import { LanguageService } from '../../services/language';
 
         <div class="about-photo">
           <img
-            src="/assets/image/samuel.jpg"
+            src="assets/image/samuel.jpg"
             alt="Samuel Rodríguez Palomino - Java Backend Developer"
           />
         </div>
