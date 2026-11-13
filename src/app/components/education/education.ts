@@ -33,7 +33,7 @@ import { LanguageService } from '../../services/language';
           <div class="education-icon">📚</div>
           <div class="education-date">2023</div>
           <span class="education-status">{{ language.t('education.hours') }}</span>
-          <h3>Certificado de Profesionalidad IFCD0112</h3>
+          <h3>{{ language.t('education.cert.title') }}</h3>
           <p>{{ language.t('education.certificateDescription') }}</p>
           <p class="education-center">Atrium Formación Pública</p>
         </article>
